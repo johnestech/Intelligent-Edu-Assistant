@@ -61,9 +61,10 @@ const Auth = () => {
     const { error } = await signUp(email, password, firstName, lastName);
     
     if (error) {
+      console.error('Sign up error details:', error);
       toast({
         title: 'Sign Up Failed',
-        description: error.message,
+        description: error.message || 'Database error saving new user. Check console for details.',
         variant: 'destructive',
       });
     } else {

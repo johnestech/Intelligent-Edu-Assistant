@@ -233,7 +233,7 @@ export const ChatInterface = ({ conversationId, onConversationChange }: ChatInte
           {messages.length === 0 && !conversationId && (
             <div className="text-center py-12">
               <h2 className="text-2xl font-semibold text-foreground mb-2">
-                Welcome to Intelligent Assistant
+                Ready to help you out!
               </h2>
               <p className="text-muted-foreground mb-6">
                 Upload documents and start asking questions to get intelligent answers
@@ -243,7 +243,7 @@ export const ChatInterface = ({ conversationId, onConversationChange }: ChatInte
                   <CardContent className="p-0">
                     <h3 className="font-medium mb-2">📄 Upload Documents</h3>
                     <p className="text-sm text-muted-foreground">
-                      Upload PDF, DOCX, PPTX, images, or text files to analyze
+                      Upload PDF, DOCX, PPTX, images, or text files
                     </p>
                   </CardContent>
                 </Card>

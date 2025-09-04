@@ -94,7 +94,7 @@ const Auth = () => {
               <BookOpen className="h-8 w-8 text-primary" />
             </div>
           </div>
-          <h1 className="text-3xl font-bold text-foreground">Intelligent Assistant</h1>
+          <h1 className="text-3xl font-bold text-foreground">Intelligent Educational Assistant</h1>
           <p className="text-muted-foreground mt-2">Your personal educational companion</p>
         </div>
 
